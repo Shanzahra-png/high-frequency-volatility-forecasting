@@ -33,7 +33,8 @@ Python, Pandas, NumPy, Matplotlib, scikit-learn, Jupyter Notebook, and GitHub.
 ## Project Status
 
 Planning and literature review.
-
+## Reference
+1 A Simple Long Memory Model of Realized Volatility by Fulvio Corsi 
 ## Research Integrity
 
 The project will document data sources, preprocessing decisions, model configurations, and evaluation procedures. Results will be reported after experiments have been conducted.
