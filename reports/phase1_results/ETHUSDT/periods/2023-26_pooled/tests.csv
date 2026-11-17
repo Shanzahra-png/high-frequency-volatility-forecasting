@@ -1,0 +1,33 @@
+h,comparison,metric,test,statistic,p_value,p_holm_all
+1,HAR + sat/sun/mon vs HAR,log-MSE,Diebold-Mariano (two-sided),12.217960206053148,2.492606014037288e-34,7.228557440708135e-33
+1,HAR + sat/sun/mon vs HAR,QLIKE,Diebold-Mariano (two-sided),6.38633356997191,1.6991016269765572e-10,3.56811341665077e-09
+1,HAR + sat/sun/mon vs HAR + weekend,log-MSE,Diebold-Mariano (two-sided),8.806598465440045,1.2900078279291629e-18,3.096018787029991e-17
+1,HAR + sat/sun/mon vs HAR + weekend,QLIKE,Diebold-Mariano (two-sided),4.411304726872855,1.0274959361104584e-05,0.00016439934977767335
+1,HAR + sat/sun/mon vs AR(1) + sat/sun/mon,log-MSE,Diebold-Mariano (two-sided),5.586964069817526,2.310735090073107e-08,4.390396671138903e-07
+1,HAR + sat/sun/mon vs AR(1) + sat/sun/mon,QLIKE,Diebold-Mariano (two-sided),-0.4271712521457132,0.6692545985435634,1.0
+1,HAR + sat/sun/mon vs Naive (yesterday),log-MSE,Diebold-Mariano (two-sided),14.509231158712462,1.0590088998889132e-47,3.282927589655631e-46
+1,HAR + sat/sun/mon vs Naive (yesterday),QLIKE,Diebold-Mariano (two-sided),10.101173574902955,5.458500177682009e-24,1.4737950479741425e-22
+1,HAR vs AR(1),log-MSE,Diebold-Mariano (two-sided),6.072008072675743,1.2632058104256524e-09,2.526411620851305e-08
+1,HAR vs AR(1),QLIKE,Diebold-Mariano (two-sided),-0.08084619411337872,0.9355642706886761,1.0
+1,HAR vs AR(1) (nested),log-MSE,Clark-West (one-sided),10.520379459093995,3.4796369765173907e-26,9.742983534248693e-25
+1,HAR + sat/sun/mon vs AR(1) + sat/sun/mon (nested),log-MSE,Clark-West (one-sided),9.983424981765998,9.006955336535523e-24,2.341808387499236e-22
+1,HAR + weekend vs HAR (nested),log-MSE,Clark-West (one-sided),17.5076003093849,6.268438093969582e-69,2.0059001900702662e-67
+1,HAR + sat/sun/mon vs HAR + weekend (nested),log-MSE,Clark-West (one-sided),13.3906573278257,3.4285586326029353e-41,1.0285675897808806e-39
+1,HAR + sat/sun/mon: 730d window vs expanding,log-MSE,Diebold-Mariano (two-sided),4.171244729874122,3.0294029360474408e-05,0.00045441044040711614
+1,HAR + sat/sun/mon: 730d window vs expanding,QLIKE,Diebold-Mariano (two-sided),1.2760057478520634,0.20195348725209417,1.0
+7,HAR vs AR(1) [f_d] (nested),log-MSE,Clark-West (one-sided),9.277691075048224,8.659540926203363e-21,2.1648852315508406e-19
+7,HAR vs AR(1) [f_d],QLIKE,Diebold-Mariano (two-sided),2.6637554173159868,0.007727372383146328,0.06954635144831695
+7,HAR vs Week only [f_w] (nested),log-MSE,Clark-West (one-sided),7.5283407764772585,2.5694565743061153e-14,5.909750120904065e-13
+7,HAR vs Week only [f_w],QLIKE,Diebold-Mariano (two-sided),2.3303612110820713,0.01978706807138073,0.15829654457104583
+7,HAR vs Month only [f_m] (nested),log-MSE,Clark-West (one-sided),6.770486903109097,6.417485168791897e-12,1.4118467371342172e-10
+7,HAR vs Month only [f_m],QLIKE,Diebold-Mariano (two-sided),1.2521298486202999,0.21052255287580945,1.0
+7,HAR vs Naive (trailing mean),log-MSE,Diebold-Mariano (two-sided),3.80981701459895,0.0001390696826287209,0.0016688361915446507
+7,HAR vs Naive (trailing mean),QLIKE,Diebold-Mariano (two-sided),3.341584955651317,0.0008330151965375624,0.009163167161913186
+28,HAR vs AR(1) [f_d] (nested),log-MSE,Clark-West (one-sided),4.996822308883898,2.914136299866271e-07,5.245445339759288e-06
+28,HAR vs AR(1) [f_d],QLIKE,Diebold-Mariano (two-sided),4.0041947618161124,6.222908213365803e-05,0.0008089780677375544
+28,HAR vs Week only [f_w] (nested),log-MSE,Clark-West (one-sided),4.385803786060927,5.777912779477739e-06,9.822451725112157e-05
+28,HAR vs Week only [f_w],QLIKE,Diebold-Mariano (two-sided),3.016859297547261,0.0025540833333235298,0.0255408333332353
+28,HAR vs Month only [f_m] (nested),log-MSE,Clark-West (one-sided),3.882495022655317,5.169506664721813e-05,0.0007237309330610539
+28,HAR vs Month only [f_m],QLIKE,Diebold-Mariano (two-sided),1.8388688412444005,0.06593447974327506,0.4615413582029254
+28,HAR vs Naive (trailing mean),log-MSE,Diebold-Mariano (two-sided),0.6069021300883064,0.5439158644313645,1.0
+28,HAR vs Naive (trailing mean),QLIKE,Diebold-Mariano (two-sided),1.2138777644099203,0.22479440505587311,1.0

@@ -1,0 +1,33 @@
+h,comparison,metric,test,statistic,p_value,p_holm_all
+1,HAR + sat/sun/mon vs HAR,log-MSE,Diebold-Mariano (two-sided),15.094626065660778,1.756810268128147e-51,5.094749777571626e-50
+1,HAR + sat/sun/mon vs HAR,QLIKE,Diebold-Mariano (two-sided),9.125046750708199,7.170530344215038e-20,1.86433788949591e-18
+1,HAR + sat/sun/mon vs HAR + weekend,log-MSE,Diebold-Mariano (two-sided),10.571876110273825,4.023636073694222e-26,1.1266181006343822e-24
+1,HAR + sat/sun/mon vs HAR + weekend,QLIKE,Diebold-Mariano (two-sided),6.832627910832796,8.337300821978268e-12,1.8342061808352188e-10
+1,HAR + sat/sun/mon vs AR(1) + sat/sun/mon,log-MSE,Diebold-Mariano (two-sided),4.235933373882429,2.2760426318244706e-05,0.00038692724741016
+1,HAR + sat/sun/mon vs AR(1) + sat/sun/mon,QLIKE,Diebold-Mariano (two-sided),-0.486830472334559,0.6263784738096885,1.0
+1,HAR + sat/sun/mon vs Naive (yesterday),log-MSE,Diebold-Mariano (two-sided),16.957317130023274,1.6992808382852845e-64,5.267770598684382e-63
+1,HAR + sat/sun/mon vs Naive (yesterday),QLIKE,Diebold-Mariano (two-sided),10.351806451073841,4.10663100136992e-25,1.1087903703698783e-23
+1,HAR vs AR(1),log-MSE,Diebold-Mariano (two-sided),3.9973844205876166,6.404624510080475e-05,0.0009606936765120713
+1,HAR vs AR(1),QLIKE,Diebold-Mariano (two-sided),-0.47463722859663404,0.6350455662258415,1.0
+1,HAR vs AR(1) (nested),log-MSE,Clark-West (one-sided),8.288229336274751,5.74733923530247e-17,1.3793614164725928e-15
+1,HAR + sat/sun/mon vs AR(1) + sat/sun/mon (nested),log-MSE,Clark-West (one-sided),8.844948429963017,4.578529531378521e-19,1.1446323828446301e-17
+1,HAR + weekend vs HAR (nested),log-MSE,Clark-West (one-sided),21.246285861734453,1.7839928736808654e-100,5.708777195778769e-99
+1,HAR + sat/sun/mon vs HAR + weekend (nested),log-MSE,Clark-West (one-sided),16.205423410605047,2.3084810905914116e-59,6.925443271774235e-58
+1,HAR + sat/sun/mon: 730d window vs expanding,log-MSE,Diebold-Mariano (two-sided),6.209651229366022,5.310232466476986e-10,1.0620464932953972e-08
+1,HAR + sat/sun/mon: 730d window vs expanding,QLIKE,Diebold-Mariano (two-sided),2.836216626192803,0.004565147003938499,0.05021661704332349
+7,HAR vs AR(1) [f_d] (nested),log-MSE,Clark-West (one-sided),8.23974448371164,8.628940900363059e-17,1.9846564070835036e-15
+7,HAR vs AR(1) [f_d],QLIKE,Diebold-Mariano (two-sided),1.49937864309503,0.13377543086251018,0.802652585175061
+7,HAR vs Week only [f_w] (nested),log-MSE,Clark-West (one-sided),5.793783707847966,3.4409038391953647e-09,6.537717294471193e-08
+7,HAR vs Week only [f_w],QLIKE,Diebold-Mariano (two-sided),0.9191943526291597,0.3579939244901016,1.0
+7,HAR vs Month only [f_m] (nested),log-MSE,Clark-West (one-sided),6.217667009439397,2.523004851937252e-10,5.298310189068229e-09
+7,HAR vs Month only [f_m],QLIKE,Diebold-Mariano (two-sided),2.151143601448184,0.03146486694878408,0.22025406864148855
+7,HAR vs Naive (trailing mean),log-MSE,Diebold-Mariano (two-sided),3.6302681617109944,0.00028312691451809496,0.00396377680325333
+7,HAR vs Naive (trailing mean),QLIKE,Diebold-Mariano (two-sided),2.983992247685713,0.0028451398021115877,0.034794177844801946
+28,HAR vs AR(1) [f_d] (nested),log-MSE,Clark-West (one-sided),3.9503254194712514,3.9022503914666966e-05,0.0006243600626346714
+28,HAR vs AR(1) [f_d],QLIKE,Diebold-Mariano (two-sided),2.4620647949240118,0.013813970813551811,0.13813970813551812
+28,HAR vs Week only [f_w] (nested),log-MSE,Clark-West (one-sided),2.784989209636077,0.002676475218830919,0.034794177844801946
+28,HAR vs Week only [f_w],QLIKE,Diebold-Mariano (two-sided),1.4382060761148343,0.15037559172891876,0.802652585175061
+28,HAR vs Month only [f_m] (nested),log-MSE,Clark-West (one-sided),4.274969253530014,9.558183699414604e-06,0.00017204730658946287
+28,HAR vs Month only [f_m],QLIKE,Diebold-Mariano (two-sided),1.4407309827918933,0.1496606982937008,0.802652585175061
+28,HAR vs Naive (trailing mean),log-MSE,Diebold-Mariano (two-sided),2.272455647130106,0.023059003957943778,0.18447203166355022
+28,HAR vs Naive (trailing mean),QLIKE,Diebold-Mariano (two-sided),2.348646282310618,0.018841796466985174,0.16957616820286656

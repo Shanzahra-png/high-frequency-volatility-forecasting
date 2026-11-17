@@ -1,0 +1,33 @@
+h,comparison,metric,test,statistic,p_value,p_holm_all
+1,HAR + sat/sun/mon vs HAR,log-MSE,Diebold-Mariano (two-sided),10.594937568505,3.145508150185688e-26,9.121973635538494e-25
+1,HAR + sat/sun/mon vs HAR,QLIKE,Diebold-Mariano (two-sided),7.909650611011535,2.581122626986914e-15,6.710918830165977e-14
+1,HAR + sat/sun/mon vs HAR + weekend,log-MSE,Diebold-Mariano (two-sided),8.918638947954621,4.720536100852038e-19,1.2745447472300503e-17
+1,HAR + sat/sun/mon vs HAR + weekend,QLIKE,Diebold-Mariano (two-sided),6.385850953226439,1.7044695461830658e-10,4.261173865457665e-09
+1,HAR + sat/sun/mon vs AR(1) + sat/sun/mon,log-MSE,Diebold-Mariano (two-sided),1.9392976040798477,0.05246511047329186,0.7100382589432244
+1,HAR + sat/sun/mon vs AR(1) + sat/sun/mon,QLIKE,Diebold-Mariano (two-sided),0.5911787680662378,0.5544006472045796,1.0
+1,HAR + sat/sun/mon vs Naive (yesterday),log-MSE,Diebold-Mariano (two-sided),11.564359795201849,6.245537661494834e-31,1.87366129844845e-29
+1,HAR + sat/sun/mon vs Naive (yesterday),QLIKE,Diebold-Mariano (two-sided),9.021704128503021,1.85185798559262e-19,5.185202359659336e-18
+1,HAR vs AR(1),log-MSE,Diebold-Mariano (two-sided),1.1316118232071526,0.2577976671867983,1.0
+1,HAR vs AR(1),QLIKE,Diebold-Mariano (two-sided),-0.29335340099685536,0.7692520399497464,1.0
+1,HAR vs AR(1) (nested),log-MSE,Clark-West (one-sided),3.8786889174582657,5.2510475706064117e-05,0.0010502095141212823
+1,HAR + sat/sun/mon vs AR(1) + sat/sun/mon (nested),log-MSE,Clark-West (one-sided),5.270134270588668,6.816199915243124e-08,1.6358879796583496e-06
+1,HAR + weekend vs HAR (nested),log-MSE,Clark-West (one-sided),14.629969574957988,9.043400354074123e-49,2.8938881133037193e-47
+1,HAR + sat/sun/mon vs HAR + weekend (nested),log-MSE,Clark-West (one-sided),13.732055149430513,3.262793418583015e-43,1.0114659597607347e-41
+1,HAR + sat/sun/mon: 730d window vs expanding,log-MSE,Diebold-Mariano (two-sided),3.62812517555576,0.0002854868452824403,0.005424250060366366
+1,HAR + sat/sun/mon: 730d window vs expanding,QLIKE,Diebold-Mariano (two-sided),1.7594166654155532,0.07850676332555909,0.942081159906709
+7,HAR vs AR(1) [f_d] (nested),log-MSE,Clark-West (one-sided),4.762166967721889,9.5762554821829e-07,2.202538760902067e-05
+7,HAR vs AR(1) [f_d],QLIKE,Diebold-Mariano (two-sided),0.8233773513148737,0.41029343856412703,1.0
+7,HAR vs Week only [f_w] (nested),log-MSE,Clark-West (one-sided),4.514973533624083,3.166233689656446e-06,6.649090748278536e-05
+7,HAR vs Week only [f_w],QLIKE,Diebold-Mariano (two-sided),1.636431685796148,0.10174927221922299,1.0
+7,HAR vs Month only [f_m] (nested),log-MSE,Clark-West (one-sided),4.701714307041574,1.2899314970496964e-06,2.8378492935093322e-05
+7,HAR vs Month only [f_m],QLIKE,Diebold-Mariano (two-sided),2.6145888926579675,0.008933491059119747,0.1518693480050357
+7,HAR vs Naive (trailing mean),log-MSE,Diebold-Mariano (two-sided),2.2476441887714804,0.0245988874667258,0.368983312000887
+7,HAR vs Naive (trailing mean),QLIKE,Diebold-Mariano (two-sided),1.9538664051768193,0.0507170184959446,0.7100382589432244
+28,HAR vs AR(1) [f_d] (nested),log-MSE,Clark-West (one-sided),2.003438576512061,0.022565117160781294,0.3610418745725007
+28,HAR vs AR(1) [f_d],QLIKE,Diebold-Mariano (two-sided),0.278517996628328,0.780614752049144,1.0
+28,HAR vs Week only [f_w] (nested),log-MSE,Clark-West (one-sided),1.0759508761636956,0.140974613349568,1.0
+28,HAR vs Week only [f_w],QLIKE,Diebold-Mariano (two-sided),-0.10941587247876632,0.9128726449141966,1.0
+28,HAR vs Month only [f_m] (nested),log-MSE,Clark-West (one-sided),2.5216671723818553,0.005840008095541266,0.10512014571974278
+28,HAR vs Month only [f_m],QLIKE,Diebold-Mariano (two-sided),0.8745594170432232,0.3818136775027018,1.0
+28,HAR vs Naive (trailing mean),log-MSE,Diebold-Mariano (two-sided),0.9944339246037821,0.32001165895914163,1.0
+28,HAR vs Naive (trailing mean),QLIKE,Diebold-Mariano (two-sided),1.1922254003466435,0.23317287633930273,1.0
