@@ -1,6 +1,6 @@
 # High-Frequency Volatility Forecasting | VolatilityLab
 
-[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg]
+[![Open In Colab]([https://colab.research.google.com/assets/colab-badge.svg])
 (https://github.com/Shanzahra-png/high-frequency-volatility-forecasting/blob/main/HAR_RV_pipeline_v1_2.ipynb)
 
 **A research-driven quantitative finance and forecasting project.**
