@@ -129,6 +129,4 @@ Data sources, preprocessing decisions, model configurations, evaluation procedur
 
 **Author:** Shan Zahra · GitHub: https://github.com/Shanzahra-png
 
-**License:** MIT for the code (add a `LICENSE` file). https://github.com/Shanzahra-png
-
 oct 2026- Aug 2027
